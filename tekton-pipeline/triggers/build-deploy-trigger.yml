@@ -87,12 +87,12 @@ spec:
     template:
       name: tekton-argocd-example-build-tt
 
----
+# ---
 
-apiVersion: getambassador.io/v2
-kind: Mapping
-metadata:
-  name: tekton-argocd-example-build-el-mapping
-spec:
-  prefix: /tekton-argocd-example-build-mapping/
-  service: el-tekton-argocd-example-build-el:8080
+# apiVersion: getambassador.io/v2
+# kind: Mapping
+# metadata:
+#   name: tekton-argocd-example-build-el-mapping
+# spec:
+#   prefix: /tekton-argocd-example-build-mapping/
+#   service: el-tekton-argocd-example-build-el:8080
